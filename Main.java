@@ -8,5 +8,8 @@ public class Main{
 		else
 			System.out.println("Hay " + args.length() + " argumentos");
 		}
+		for(int i = 0; i < args.length; i++){
+			System.out.println("Argumento " + i + ": " + args[i]);
+		}
 	}
 }
